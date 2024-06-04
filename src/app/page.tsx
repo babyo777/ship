@@ -64,6 +64,7 @@ export default function Home() {
             loop
             autoPlay
             playsInline
+            preload="true"
             className=" border rounded-md"
           ></video>
         </div>
