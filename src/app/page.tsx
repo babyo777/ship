@@ -12,7 +12,7 @@ export default function Home() {
           <p className="mt-0.5">Ship</p>
         </div>
         <div className="flex items-center gap-2.5">
-          <Link target="blank" href={"https://github.com/babyo777/transfer"}>
+          <Link target="blank" href={"https://github.com/babyo77/ship"}>
             <Button
               size={"sm"}
               className="font-semibold items-center flex gap-1"
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex space-x-2">
           <Link
             href={
-              "https://github.com/babyo777/transfer/releases/download/1.0.1/ship-setup.exe"
+              "https://github.com/babyo77/ship/releases/download/1.0.5/ship-setup.exe"
             }
           >
             <Button size={"sm"} className="font-semibold">
@@ -39,7 +39,7 @@ export default function Home() {
           </Link>
           <Link
             target="blank"
-            href={"https://github.com/babyo777/transfer/releases/"}
+            href={"https://github.com/babyo77/ship/releases/"}
           >
             <Button size={"sm"} className="font-semibold">
               Latest Release
