@@ -75,7 +75,7 @@ export default function Home() {
         </p>
       </div>
 
-      <footer className="flex max-md:absolute border-t bottom-0 w-full py-4 justify-center items-start leading-tight tracking-tight text-xs text-zinc-400 hover:text-zinc-200 duration-300 transition-all">
+      <footer className="flex border-t bottom-0 w-full py-4 justify-center items-start leading-tight tracking-tight text-xs text-zinc-400 hover:text-zinc-200 duration-300 transition-all">
         <p>
           Made by{" "}
           <a target="blank" href="https://tanmayo7.vercel.app">
