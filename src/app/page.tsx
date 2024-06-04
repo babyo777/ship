@@ -23,7 +23,7 @@ export default function Home() {
           </Link>
         </div>
       </header>
-      <div className="flex flex-1 w-full min-h-[60dvh] flex-col items-center justify-center text-center px-4  mt-11 max-md:mt-[9dvh] background-gradient sm:py-16 py-11 md:gap-11 gap-5">
+      <div className="flex flex-1 w-full min-h-[60dvh] flex-col items-center justify-center text-center px-4  mt-11 max-md:mt-[9dvh] background-gradient sm:py-16 py-4 md:gap-11 gap-5">
         <h1 className="mx-auto max-w-6xl font-display text-5xl font-medium tracking-tight sm:text-6xl  text-[45px]   leading-[48px] sm:leading-none">
           Ship your files without internet
         </h1>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="md:px-[14dvw] pb-11">
+        <div className="md:px-[14dvw]">
           <video
             src="/demo.mp4"
             muted
@@ -67,6 +67,12 @@ export default function Home() {
             className=" border rounded-md"
           ></video>
         </div>
+        <p className="mx-auto max-w-6xl font-display tracking-tight leading-relaxed text-zinc-300 font-normal sm:leading-none pb-11 md:text-base text-sm">
+          Ship is an Electron-based application designed for Windows, enabling
+          seamless file transfers from your phone to your PC over the same Wi-Fi
+          network. This app provides a convenient and secure way to transfer
+          files without relying on internet access or using cables.
+        </p>
       </div>
 
       <footer className="flex max-md:absolute border-t bottom-0 w-full py-4 justify-center items-start leading-tight tracking-tight text-xs text-zinc-400 hover:text-zinc-200 duration-300 transition-all">
