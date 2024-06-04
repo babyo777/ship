@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   icons: ["/favicon.jpg"],
   openGraph: {
     type: "website",
-    url: "https://yourwebsite.com",
+    url: "https://ship-file.vercel.app",
     title: "Ship",
     description: "Ship your files without internet",
     images: [
       {
-        url: "https://shio-file.vercel.app/ship.png",
+        url: "https://ship-file.vercel.app/ship.png",
         width: 800,
         height: 600,
         alt: "Ship your files without internet",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     site: "@tanmay11117",
     title: "Ship",
     description: "Ship your files without internet",
-    images: "https://shio-file.vercel.app/ship.png",
+    images: "https://ship-file.vercel.app/ship.png",
   },
 };
 
