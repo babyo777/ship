@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
             <PiStackSimple className="h-4 w-4" />
-            <p>Simple to use</p>
+            <p>Easy to use</p>
           </div>
         </div>
 
