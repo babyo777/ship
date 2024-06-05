@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex space-x-2">
           <Link
             href={
-              "https://github.com/babyo77/ship/releases/download/1.0.5/ship-setup.exe"
+              "https://github.com/babyo77/ship/releases/download/1.0.7/ship-setup.exe"
             }
           >
             <Button size={"sm"} className="font-semibold">
