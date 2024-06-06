@@ -54,14 +54,15 @@ function Download() {
           />
         </div>
         <DialogFooter className="max-md:gap-2">
-          <Button
-            variant={"secondary"}
-            size={"sm"}
-            onClick={() => window.open("twitter.com/tanmay11117")}
-            className="font-semibold cursor-pointer"
-          >
-            Sponsor
-          </Button>
+          <Link target="blank" href={"https://twitter.com/tanmay11117"}>
+            <Button
+              variant={"secondary"}
+              size={"sm"}
+              className="font-semibold cursor-pointer"
+            >
+              Sponsor
+            </Button>
+          </Link>
           <Link
             href={
               "https://github.com/babyo77/ship/releases/download/1.0.7/ship-setup.exe"
