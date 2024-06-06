@@ -58,7 +58,7 @@ function Download() {
             <Button
               variant={"secondary"}
               size={"sm"}
-              className="font-semibold cursor-pointer"
+              className="font-semibold cursor-pointer w-full"
             >
               Sponsor
             </Button>
