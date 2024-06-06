@@ -47,7 +47,7 @@ function Download() {
             height={500}
             width={500}
             priority
-            blurDataURL="/warn,webp"
+            blurDataURL="/warn.webp"
             alt="code-signed-warning"
           />
         </div>
