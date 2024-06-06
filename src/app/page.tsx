@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
+import Download from "@/components/ui/download";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { FolderSync, Gauge } from "lucide-react";
+import { Gauge } from "lucide-react";
 import Link from "next/link";
 import { PiStackSimple } from "react-icons/pi";
 
@@ -28,15 +29,7 @@ export default function Home() {
           Ship your files without internet
         </h1>
         <div className="flex space-x-2">
-          <Link
-            href={
-              "https://github.com/babyo77/ship/releases/download/1.0.7/ship-setup.exe"
-            }
-          >
-            <Button size={"sm"} className="font-semibold">
-              Download (windows)
-            </Button>
-          </Link>
+          <Download />
           <Link
             target="blank"
             href={"https://github.com/babyo77/ship/releases/"}
