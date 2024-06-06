@@ -19,7 +19,7 @@ function Download() {
           <p>Download (windows)</p>
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-md:w-[90dvw]">
+      <DialogContent className="max-md:w-[90dvw] rounded-md">
         <DialogHeader>
           <DialogTitle className="text-start">Important!</DialogTitle>
           <DialogDescription className="text-start">
@@ -66,7 +66,7 @@ function Download() {
             <Button
               variant={"secondary"}
               size={"sm"}
-              className="font-semibold cursor-pointer"
+              className="font-semibold cursor-pointer w-full"
             >
               Download
             </Button>
