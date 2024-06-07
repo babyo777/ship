@@ -65,7 +65,7 @@ function Download() {
           </Link>
           <Link
             href={
-              "https://github.com/babyo77/ship/releases/download/1.0.8/Ship.Setup.1.0.82.exe"
+              "https://github.com/babyo77/ship/releases/download/1.0.8/Ship.Setup.1.0.84.exe"
             }
           >
             <Button
