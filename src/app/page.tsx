@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Download from "@/components/ui/download";
+import View from "@/components/view";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Gauge } from "lucide-react";
 import Link from "next/link";
@@ -8,6 +9,7 @@ import { PiStackSimple } from "react-icons/pi";
 export default function Home() {
   return (
     <>
+      <View />
       <header className=" border-b p-4 w-full items-center flex justify-between md:justify-around">
         <div className="flex items-center gap-1.5 font-bold text-2xl leading-tight tracking-wide">
           <p className="mt-0.5">Ship</p>
