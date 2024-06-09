@@ -44,7 +44,7 @@ export default function Home() {
         <div className=" flex justify-center gap-2">
           <div className="flex items-center gap-1  text-xs tracking-tight leading-tight">
             <Gauge className="h-4 w-4" />
-            <p>High speed</p>
+            <p>Fast</p>
           </div>
           <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
             <PiStackSimple className="h-4 w-4" />
