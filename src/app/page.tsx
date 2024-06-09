@@ -56,6 +56,7 @@ export default function Home() {
           <video
             src="/demo.mp4"
             muted
+            controls
             loop
             autoPlay
             playsInline
