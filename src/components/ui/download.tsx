@@ -66,7 +66,7 @@ function Download() {
         <DialogFooter className="max-md:gap-2">
           <Link target="blank" href={"https://twitter.com/tanmay11117"}>
             <Button
-              variant={"secondary"}
+              variant={"default"}
               size={"sm"}
               className="font-semibold cursor-pointer w-full"
             >
@@ -75,7 +75,7 @@ function Download() {
           </Link>
           <Link href={url ? url : ""}>
             <Button
-              variant={"secondary"}
+              variant={"default"}
               size={"sm"}
               className="font-semibold cursor-pointer w-full"
             >
