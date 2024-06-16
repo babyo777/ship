@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
             <PiStackSimple className="h-4 w-4" />
-            <p>Easy to use</p>
+            <p>Open source</p>
           </div>
           <div className="flex items-center gap-0.5 text-xs tracking-tight leading-tight">
             <LuShieldCheck className="h-4 w-4" />
