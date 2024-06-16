@@ -34,12 +34,9 @@ export default function Home() {
         </h1>
         <div className="flex space-x-2">
           <Download />
-          <Link
-            target="blank"
-            href={"https://github.com/babyo77/ship/releases/"}
-          >
+          <Link href="/support">
             <Button size={"sm"} className="font-semibold">
-              Latest Release
+              Help & Support
             </Button>
           </Link>
         </div>
