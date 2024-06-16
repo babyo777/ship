@@ -52,11 +52,11 @@ export default function Home() {
             <PiStackSimple className="h-4 w-4" />
             <p>Easy to use</p>
           </div>
-          <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
+          <div className="flex items-center gap-0.5 text-xs tracking-tight leading-tight">
             <LuShieldCheck className="h-4 w-4" />
             <p>Secure</p>
           </div>
-          <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
+          <div className="flex items-center gap-0.5 text-xs tracking-tight leading-tight">
             <HiOutlineClipboardCopy className="h-4 w-4" />
             <p>Clipboard Sync</p>
           </div>
