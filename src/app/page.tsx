@@ -4,6 +4,8 @@ import View from "@/components/view";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Gauge } from "lucide-react";
 import Link from "next/link";
+import { HiOutlineClipboardCopy } from "react-icons/hi";
+import { LuShieldCheck } from "react-icons/lu";
 import { PiStackSimple } from "react-icons/pi";
 
 export default function Home() {
@@ -49,6 +51,14 @@ export default function Home() {
           <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
             <PiStackSimple className="h-4 w-4" />
             <p>Easy to use</p>
+          </div>
+          <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
+            <LuShieldCheck className="h-4 w-4" />
+            <p>Secure</p>
+          </div>
+          <div className="flex items-center gap-1 text-xs tracking-tight leading-tight">
+            <HiOutlineClipboardCopy className="h-4 w-4" />
+            <p>Clipboard Sync</p>
           </div>
         </div>
 
