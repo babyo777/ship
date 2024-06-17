@@ -34,8 +34,14 @@ function Download() {
           <DialogTitle className="text-start">Important!</DialogTitle>
           <DialogDescription className="text-start">
             You might see a warning when opening the setup because the software
-            is not
-            <span className="text-white"> code-signed.</span>
+            is not{" "}
+            <a
+              href="https://www.electronjs.org/docs/latest/tutorial/code-signing"
+              target="blank"
+              className="text-white underline underline-offset-2"
+            >
+              code-signed.
+            </a>
             <br />
             <br />
             <span className=" font-semibold text-white py-2">
