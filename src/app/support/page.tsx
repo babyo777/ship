@@ -17,7 +17,7 @@ export default function Page() {
       clearTimeout(t);
       clearInterval(i);
     };
-  }, [router]);
+  }, [router, sec]);
   return (
     <div className="p-4">
       <a
