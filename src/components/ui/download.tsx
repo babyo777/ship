@@ -29,7 +29,7 @@ function Download() {
           <p>Download (windows)</p>
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-md:w-[90dvw] rounded-lg">
+      <DialogContent className="max-md:w-[90dvw] max-h[90dvh] rounded-lg">
         <DialogHeader>
           <DialogTitle className="text-start">Important!</DialogTitle>
           <DialogDescription className="text-start">
