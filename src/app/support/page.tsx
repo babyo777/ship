@@ -10,7 +10,7 @@ export default function Page() {
       router.push("https://tanmays-organization-2.gitbook.io/ship/");
     }, 4000);
     const i = setInterval(() => {
-      setSec((prev) => (prev - 1 + 4) % 4);
+      setSec((prev) => prev - 1);
     }, 1000);
     return () => {
       clearTimeout(t);
