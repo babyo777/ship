@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex space-x-2">
         {isMac ? (
         <Button asChild size="sm" className="font-semibold">
-          <Link href={"https://github.com/babyo77/ship/releases/download/1.0.11/Ship-1.0.11-arm64.dmg"}>Download</Link>
+          <Link href={"https://github.com/babyo77/ship/releases/download/1.0.11/Ship-1.0.11-arm64.dmg"}>Download (Mac)</Link>
         </Button>
       ) : (
         <Download />
