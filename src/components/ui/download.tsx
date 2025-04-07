@@ -26,7 +26,7 @@ function Download() {
     <Dialog>
       <DialogTrigger>
         <Button asChild size={"sm"} className="font-semibold">
-          <p>Download (windows)</p>
+          <p>Download</p>
         </Button>
       </DialogTrigger>
       <DialogContent className="max-md:w-[90dvw] max-h-[90dvh] rounded-lg">

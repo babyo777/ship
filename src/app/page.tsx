@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import Download from "@/components/ui/download";
 import View from "@/components/view";
@@ -7,8 +8,17 @@ import Link from "next/link";
 import { HiOutlineClipboardCopy } from "react-icons/hi";
 import { LuShieldCheck } from "react-icons/lu";
 import { PiStackSimple } from "react-icons/pi";
-
+import { useEffect, useState } from 'react';
 export default function Home() {
+
+  const [isMac, setIsMac] = useState(false);
+
+  useEffect(() => {
+    // Detect macOS
+    const platform = window.navigator.platform.toLowerCase();
+    setIsMac(platform.includes('mac'));
+  }, []);
+
   return (
     <>
       <View />
@@ -33,7 +43,13 @@ export default function Home() {
           Ship your files without internet
         </h1>
         <div className="flex space-x-2">
-          <Download />
+        {isMac ? (
+        <Button asChild size="sm" className="font-semibold">
+          <Link href={"https://github.com/babyo77/ship/releases/download/1.0.11/Ship-1.0.11-arm64.dmg"}>Download</Link>
+        </Button>
+      ) : (
+        <Download />
+      )}
           <Link href="/support">
             <Button size={"sm"} className="font-semibold">
               Help & Support
